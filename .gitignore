@@ -20,6 +20,7 @@
 # Ignore contributed modules and themes
 web/themes/contrib
 web/modules/contrib
+web/core
 
 # Ignore configuration files that may contain sensitive information.
 web/sites/*/settings*.php
