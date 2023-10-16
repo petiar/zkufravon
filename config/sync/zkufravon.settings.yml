@@ -1,0 +1,26 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: themes/custom/zkufravon/images/zkufravon_logo.png
+favicon:
+  use_default: 0
+  path: themes/custom/zkufravon/images/zkufravon_logo.png
+  mimetype: image/png
+mobile_menu_all_widths: 0
+site_branding_bg_color: default
+base_primary_color: '#e1d233'
+b5_top_container: container
+b5_top_container_config: ''
+b5_body_schema: dark
+b5_body_bg_schema: dark
+b5_navbar_schema: dark
+b5_navbar_bg_schema: dark
+b5_footer_schema: none
+b5_footer_bg_schema: none
+subtheme_folder: themes/custom
+subtheme_name: 'B5 subtheme'
+subtheme_machine_name: b5subtheme

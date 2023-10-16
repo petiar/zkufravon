@@ -1,0 +1,23 @@
+uuid: 0aa5f101-6a27-4430-bdd3-d25d5d5bb812
+langcode: sk
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - zkufravon
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: zkufravon_search_form_wide
+theme: zkufravon
+region: header
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Vyhľadávací formulár (široký)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: a53a85da-e7fd-489c-b1a5-e7a2efc3a6e2
+langcode: sk
+status: true
+dependencies:
+  config:
+    - node.type.predstavenie
+id: node.predstavenie
+target_entity_type_id: node
+target_bundle: predstavenie
+default_langcode: site_default
+language_alterable: false

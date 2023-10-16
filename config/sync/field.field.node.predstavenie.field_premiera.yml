@@ -1,0 +1,21 @@
+uuid: 7287f4d7-3390-42fd-8a47-6054f653dd42
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_premiera
+    - node.type.predstavenie
+  module:
+    - datetime
+id: node.predstavenie.field_premiera
+field_name: field_premiera
+entity_type: node
+bundle: predstavenie
+label: Premiéra
+description: 'Zadaj dátum premiéry.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

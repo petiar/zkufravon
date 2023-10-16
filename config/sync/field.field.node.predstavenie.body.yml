@@ -1,0 +1,23 @@
+uuid: 42f8e767-7768-4ead-9625-07d6333c5b90
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.predstavenie
+  module:
+    - text
+id: node.predstavenie.body
+field_name: body
+entity_type: node
+bundle: predstavenie
+label: Popis
+description: 'Popis predstavenia'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

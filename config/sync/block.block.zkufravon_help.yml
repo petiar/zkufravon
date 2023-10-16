@@ -1,0 +1,22 @@
+uuid: e48e99fc-8860-4d78-aeca-27dc0ceebbd2
+langcode: sk
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - zkufravon
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: zkufravon_help
+theme: zkufravon
+region: header
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Pomoc
+  label_display: '0'
+  provider: help
+visibility: {  }

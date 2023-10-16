@@ -1,0 +1,29 @@
+uuid: 83c5dc07-7fa2-4f00-8a67-0bf13b644f6a
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_repertoar
+    - node.type.akcia
+    - node.type.predstavenie
+id: node.akcia.field_repertoar
+field_name: field_repertoar
+entity_type: node
+bundle: akcia
+label: Repertoár
+description: 'Ak budete hrať hru z repertoára na tejto stránke, vyber ju tu a odkaz na ňu sa objaví pri akcii.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      predstavenie: predstavenie
+    sort:
+      field: field_premiera
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

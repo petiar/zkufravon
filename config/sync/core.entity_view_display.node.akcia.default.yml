@@ -1,0 +1,58 @@
+uuid: eb9a6746-493a-422a-a76c-ef6367e26f3c
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.field.node.akcia.body
+    - field.field.node.akcia.field_datum_cas
+    - field.field.node.akcia.field_miesto_konania
+    - field.field.node.akcia.field_repertoar
+    - node.type.akcia
+  module:
+    - datetime
+    - text
+    - user
+id: node.akcia.default
+targetEntityType: node
+bundle: akcia
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_datum_cas:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_miesto_konania:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_repertoar:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,18 @@
+uuid: 5f3bdcfc-7281-4a5c-abb7-53c2a52c26c0
+langcode: sk
+status: true
+dependencies:
+  config:
+    - node.type.predstavenie
+id: node.predstavenie.title
+field_name: title
+entity_type: node
+bundle: predstavenie
+label: 'Názov predstavenia'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

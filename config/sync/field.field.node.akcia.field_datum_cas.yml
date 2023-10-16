@@ -1,0 +1,24 @@
+uuid: abc3ad36-43aa-491b-80f7-3fdacb4d1607
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_datum_cas
+    - node.type.akcia
+  module:
+    - datetime
+id: node.akcia.field_datum_cas
+field_name: field_datum_cas
+entity_type: node
+bundle: akcia
+label: 'Dátum, čas'
+description: 'Zadajte dátum a čas konania akcie.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

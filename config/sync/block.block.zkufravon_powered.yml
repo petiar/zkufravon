@@ -1,0 +1,22 @@
+uuid: 9fb0752c-d94c-4bc6-a815-ee705ad4057b
+langcode: sk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - zkufravon
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: zkufravon_powered
+theme: zkufravon
+region: header
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Beží na Drupale'
+  label_display: '0'
+  provider: system
+visibility: {  }

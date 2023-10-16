@@ -1,0 +1,11 @@
+uuid: 53d42b59-0cb4-4085-be7d-13acc9b78db6
+langcode: sk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lBXDpdDPXQtrfTJQhr6MjRJJEEyYSoRJ0acdvHLsWeA
+id: en
+label: Angličtina
+direction: ltr
+weight: 0
+locked: false

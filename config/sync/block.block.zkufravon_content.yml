@@ -1,0 +1,22 @@
+uuid: 3b7b3cc3-0437-481f-85c5-85c9a2c8d71a
+langcode: sk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zkufravon
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: zkufravon_content
+theme: zkufravon
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Hlavný obsah stránky'
+  label_display: '0'
+  provider: system
+visibility: {  }

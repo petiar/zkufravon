@@ -1,0 +1,22 @@
+uuid: 59eeca16-4714-41f9-9bde-53ca56423901
+langcode: sk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - zkufravon
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: zkufravon_breadcrumbs
+theme: zkufravon
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

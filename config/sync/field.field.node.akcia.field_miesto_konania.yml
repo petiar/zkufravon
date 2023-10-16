@@ -1,0 +1,19 @@
+uuid: a0df6782-48e8-4545-942c-424fdc086c76
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_miesto_konania
+    - node.type.akcia
+id: node.akcia.field_miesto_konania
+field_name: field_miesto_konania
+entity_type: node
+bundle: akcia
+label: 'Miesto konania'
+description: 'Kde sa bude akcia konať?'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

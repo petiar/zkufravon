@@ -1,0 +1,35 @@
+uuid: 69526cbf-6c54-4cd9-bcef-d4dfc2132229
+langcode: sk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.predstavenie.body
+    - field.field.node.predstavenie.field_ilustracny_obrazok
+    - field.field.node.predstavenie.field_premiera
+    - node.type.predstavenie
+  module:
+    - text
+    - user
+id: node.predstavenie.teaser
+targetEntityType: node
+bundle: predstavenie
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ilustracny_obrazok: true
+  field_premiera: true
+  langcode: true

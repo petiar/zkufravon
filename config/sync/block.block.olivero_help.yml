@@ -1,0 +1,22 @@
+uuid: a2db6d0e-0c9b-4c10-a3e8-c5223a74d5b5
+langcode: sk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - olivero
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: olivero_help
+theme: olivero
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Pomoc
+  label_display: '0'
+  provider: help
+visibility: {  }

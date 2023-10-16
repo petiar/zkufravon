@@ -1,0 +1,22 @@
+uuid: 9bc4232c-4302-4528-a6a7-b3ae5c33833d
+langcode: sk
+status: true
+dependencies:
+  theme:
+    - zkufravon
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: zkufravon_secondary_local_tasks
+theme: zkufravon
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Sekundárne karty'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

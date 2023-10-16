@@ -1,0 +1,13 @@
+uuid: e1fde7bd-2ca9-4142-ae03-56ad9a9703e8
+langcode: sk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Osobný kontaktný formulár'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Vaša správa bola odoslaná.'
+redirect: ''

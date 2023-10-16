@@ -1,0 +1,20 @@
+uuid: a734ee93-672d-4a22-a87c-f868de57a257
+langcode: sk
+status: true
+dependencies:
+  theme:
+    - zkufravon
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: zkufravon_page_title
+theme: zkufravon
+region: nav_branding
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Názov stránky'
+  label_display: '0'
+  provider: core
+visibility: {  }

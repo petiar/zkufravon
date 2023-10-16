@@ -1,0 +1,15 @@
+uuid: e56bcad8-0ee4-4b76-8bc2-e2afed052057
+langcode: sk
+status: true
+dependencies: {  }
+name: siroky
+label: Široký
+effects:
+  a5804248-ea13-4f11-a244-25aee5f08e2b:
+    uuid: a5804248-ea13-4f11-a244-25aee5f08e2b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1320
+      height: 150
+      anchor: center-center
