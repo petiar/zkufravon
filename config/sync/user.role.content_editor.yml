@@ -3,11 +3,12 @@ langcode: sk
 status: true
 dependencies:
   config:
+    - node.type.akcia
     - node.type.article
     - node.type.page
+    - node.type.predstavenie
     - taxonomy.vocabulary.tags
   module:
-    - comment
     - contextual
     - file
     - node
@@ -27,21 +28,34 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access site in maintenance mode'
   - 'access toolbar'
   - 'access tour'
   - 'administer url aliases'
+  - 'create akcia content'
   - 'create article content'
   - 'create page content'
+  - 'create predstavenie content'
   - 'create terms in tags'
   - 'create url aliases'
-  - 'delete article revisions'
+  - 'delete any akcia content'
+  - 'delete any article content'
+  - 'delete any file'
+  - 'delete any page content'
+  - 'delete any predstavenie content'
+  - 'delete own akcia content'
   - 'delete own article content'
   - 'delete own files'
   - 'delete own page content'
-  - 'delete page revisions'
+  - 'delete own predstavenie content'
+  - 'edit any akcia content'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any predstavenie content'
+  - 'edit own akcia content'
   - 'edit own article content'
-  - 'edit own comments'
   - 'edit own page content'
+  - 'edit own predstavenie content'
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'view all revisions'
